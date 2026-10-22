@@ -12,6 +12,19 @@ A Java Swing application designed to help students and administrators plan and a
 - **Hierarchical Domain Logic**: Organizes data into a structured hierarchy: Library -> Subject -> Course -> Offer -> Section.
 - **Visual Analysis**: Includes a histogram/statistical view for better data visualization.
 
+## Screenshots
+
+<table width="100%">
+  <tr>
+    <td width="50%" align="center" valign="top"><img src="docs/screenshots/01.png" width="100%" alt="MATH course list and offering statistics"><br><sub>MATH course list and statistics</sub></td>
+    <td width="50%" align="center" valign="top"><img src="docs/screenshots/02.png" width="100%" alt="CMPT course list and offering statistics"><br><sub>CMPT course list and statistics</sub></td>
+  </tr>
+</table>
+
+## Download (Windows)
+
+A ready-to-run Windows build is in [`dist/CoursePlanner/`](dist/CoursePlanner/). Keep the folder together (the `doc/course_data_2014.csv` data file must stay next to the launcher) and double-click `CoursePlanner.exe`. Java must be installed.
+
 ## Project Structure
 
 - `domain_logic`: Core business logic for handling courses, subjects, and offerings.
